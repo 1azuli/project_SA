@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'restuarant';
+  title = 'cooperative';
   logined: boolean = false;
 
   constructor(private usersService: UsersService, private router: Router) {
