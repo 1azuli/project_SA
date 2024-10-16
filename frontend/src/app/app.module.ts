@@ -13,6 +13,12 @@ import { ManageComponent } from './admin/manage/manage.component';
 import { ReservationComponent } from './reservation/reservation.component';
 import { UsersService } from './services/users.service';
 import { HttpClientModule } from '@angular/common/http';
+import { ProfileComponent } from './profile/profile.component';
+import { SavingsComponent } from './savings/savings.component';
+import { DepositComponent } from './deposit/deposit.component';
+import { WithdrawComponent } from './withdraw/withdraw.component';
+import { InterestComponent } from './interest/interest.component';
+import { ReportComponent } from './report/report.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +29,13 @@ import { HttpClientModule } from '@angular/common/http';
     ContactUsComponent,
     LoginComponent,
     ManageComponent,
-    ReservationComponent
+    ReservationComponent,
+    ProfileComponent,
+    SavingsComponent,
+    DepositComponent,
+    WithdrawComponent,
+    InterestComponent,
+    ReportComponent
   ],
   imports: [
     BrowserModule,
