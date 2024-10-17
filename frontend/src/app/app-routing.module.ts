@@ -13,10 +13,10 @@ import { WithdrawComponent } from './withdraw/withdraw.component';
 import { InterestComponent } from './interest/interest.component';
 import { ReportComponent } from './report/report.component';
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' }, 
-  { path: 'home', component: HomeComponent }, 
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
   { path: 'profile', component: ProfileComponent },
-  { path: 'about-us', component: AboutUsComponent }, 
+  { path: 'about-us', component: AboutUsComponent },
   { path: 'contact-us', component: ContactUsComponent },
   { path: 'reservation', component: ReservationComponent },
   { path: 'admin/admin-login', component: LoginComponent },
